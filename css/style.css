@@ -1,0 +1,42 @@
+body {
+    background-color: azure;
+}
+.office-banner {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(96,203,54,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Pacifico', cursive;
+    padding: 0.125em;
+    color: azure;
+    font-size: 4em;
+    text-align: center;
+    white-space: nowrap;
+    transform: rotate(-10deg);
+    position: fixed;
+    top: 20%;
+    left: -5%;
+    right: -5%;
+    z-index: 100;
+    margin-top: 0;
+  }
+
+  p.wish {
+    text-align:center;
+    position: relative;
+    top: 180px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 20px;
+  }
+
+  strong.mukti{
+      font-size: 60px;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .office-banner {
+      font-size: 18px;
+    }
+  }
+
+
