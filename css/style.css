@@ -48,6 +48,10 @@ body {
     .office-banner {
       font-size: 28px;
     }
+
+    p.wish {
+      top: 180px;
+    }
   }
 
 
