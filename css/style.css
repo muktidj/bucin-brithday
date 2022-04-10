@@ -20,15 +20,26 @@ body {
   }
 
   p.wish {
-    text-align:center;
+    text-align:justify;
+    padding: 10px;
     position: relative;
-    top: 180px;
+    top: 220px;
     font-family: 'PT Sans', sans-serif;
     line-height: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 0% auto;
+    box-shadow: 5px 5px 5px 5px hsl(112, 49%, 37%);
+
   }
 
   strong.mukti{
-      font-size: 40px;
+      font-size: 10px;
+  }
+
+
+  audio {
+    display: none;
   }
 
 
